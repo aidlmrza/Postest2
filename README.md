@@ -2,7 +2,7 @@
 Postest 2 - DDP - Muhammad Aidil Mirza
 
 ## Flowchart
-![Postest2-flowchart-gambar](https://github.com/aidlmrza/Postest2/assets/144346363/2afc0776-3701-4d37-9d55-a41d96ec71a7)
+![Postest2-flowchart-gambar](https://github.com/aidlmrza/Postest2/assets/144346363/b1b7e5a8-0bbd-4def-b0bb-29c1925e24dc)
 
 
 ## Penjelasan output program
