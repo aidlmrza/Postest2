@@ -24,24 +24,29 @@ Dalam fungsi login user akan diminta untuk memasukkan username dan password, jik
 ![Login](https://github.com/aidlmrza/Postest2/assets/144346363/59f84507-6436-4a63-a995-ad488b38e962)
 
 ### Menu User
-![Menu user](https://github.com/aidlmrza/Postest2/assets/144346363/46f6d846-d0c0-4ec8-a427-cf04ff086f23)
 Menu user akan memperlihatkan produk yang dijual kepada user, lalu user akan ditanya apakah ingin melakukan pembelian atau tidak, ada opsi y dan n, jika y maka akan ke menu transaksi, jika n maka akan keluar
-![Transaksi](https://github.com/aidlmrza/Postest2/assets/144346363/9f1ae911-e1e9-4bb9-8f1b-4c46a3294db2)
+![Menu user](https://github.com/aidlmrza/Postest2/assets/144346363/46f6d846-d0c0-4ec8-a427-cf04ff086f23)
 Setelah user memilih y pada menu user, maka user akan diminta untuk memilih barang dengan memasukkan nomor etalase, jika etalase ditemukan maka akan mengeksekusi baris 9, jika nomor etalase tidak ada maka mengeksekusi baris 13
+![Transaksi](https://github.com/aidlmrza/Postest2/assets/144346363/9f1ae911-e1e9-4bb9-8f1b-4c46a3294db2)
 
 ### Menu Admin
-![Menu admin](https://github.com/aidlmrza/Postest2/assets/144346363/00e2094d-9e30-4641-84cd-d8a2de65abf4)
 Jika masuk menggunakan username dan password admin maka akan memunculkan menu admin yang memiliki wewenang untuk mengubah-ubah produk yang ingin dijual
-![Create](https://github.com/aidlmrza/Postest2/assets/144346363/8a51be67-d321-4ddc-88af-c9be4447fd99)
+![Menu admin](https://github.com/aidlmrza/Postest2/assets/144346363/00e2094d-9e30-4641-84cd-d8a2de65abf4)
+
 Jika memilih opsi 1 yaitu tambah produk, maka admin akan diminta untuk memasukkan nama, jenis, dan harga produk yang baru, setelah itu produk akan ditambahkan ke data poster dan akan menampilkan tabel terbaru dari produk yang dijual
-![Read](https://github.com/aidlmrza/Postest2/assets/144346363/90e0e0c5-8f56-45b9-8ea7-458a6c909865)
+![Create](https://github.com/aidlmrza/Postest2/assets/144346363/8a51be67-d321-4ddc-88af-c9be4447fd99)
+
 Jika memilih opsi 2 yaitu lihat produk, maka admin akan diperlihatkan produk yang ada pada data poster saat ini
-![Update](https://github.com/aidlmrza/Postest2/assets/144346363/72bebc1e-ec49-4101-b22b-bc605b289481)
+![Read](https://github.com/aidlmrza/Postest2/assets/144346363/90e0e0c5-8f56-45b9-8ea7-458a6c909865)
+
 Jika memilih opsi 3 yaitu Perbarui produk, maka admin akan diminta memasukkan nomor etalase dari produk yang ingin diubah, lalu jika ada etalase yang ingin diubah maka admin diminta untuk memasukkan produk, jenis, dan harga baru, jika tidak ada nomor etalase yang sesuai maka akan kembali ke menu admin lagi.
-![Delete](https://github.com/aidlmrza/Postest2/assets/144346363/6923b873-09a3-4fa4-9c4a-75aeb345eaaa)
+![Update](https://github.com/aidlmrza/Postest2/assets/144346363/72bebc1e-ec49-4101-b22b-bc605b289481)
+
 Jika memilih opsi 4 yaitu hapus produk, maka admin akan diminta memasukkan nomor etalase dari produk yang ingin dihapus, lalu jika tidak ada nomor etalase yang sesuai maka akan kembali ke menu admin
-![image](https://github.com/aidlmrza/Postest2/assets/144346363/ff41cafa-36f2-4af0-aef5-13149da186ce)
+![Delete](https://github.com/aidlmrza/Postest2/assets/144346363/6923b873-09a3-4fa4-9c4a-75aeb345eaaa)
+
 Jika memilih opsi 0 maka akan kembali ke menu utama, jika memilih selain dari 5 opsi tersebut maka akan invalid dan kembali ke menu admin
+![image](https://github.com/aidlmrza/Postest2/assets/144346363/ff41cafa-36f2-4af0-aef5-13149da186ce)
 
 
 
