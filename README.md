@@ -27,7 +27,8 @@ Dalam fungsi login user akan diminta untuk memasukkan username dan password, jik
 
 ### Menu User
 Menu user akan memperlihatkan produk yang dijual kepada user, lalu user akan ditanya apakah ingin melakukan pembelian atau tidak, ada opsi y dan n, jika y maka akan ke menu transaksi, jika n maka akan keluar
-![Menu user](https://github.com/aidlmrza/Postest2/assets/144346363/46f6d846-d0c0-4ec8-a427-cf04ff086f23)
+![Menu user](https://github.com/aidlmrza/Postest2/assets/144346363/9ed74114-47cd-4f2d-b09c-f4637fb3718d)
+
 ### Transaksi
 Setelah user memilih y pada menu user, maka user akan diminta untuk memilih barang dengan memasukkan nomor etalase, jika etalase ditemukan maka akan mengeksekusi baris 9, jika nomor etalase tidak ada maka mengeksekusi baris 13
 ![Transaksi](https://github.com/aidlmrza/Postest2/assets/144346363/9f1ae911-e1e9-4bb9-8f1b-4c46a3294db2)
