@@ -34,7 +34,7 @@ Setelah user memilih y pada menu user, maka user akan diminta untuk memilih bara
 
 ### Menu Admin
 Jika masuk menggunakan username dan password admin maka akan memunculkan menu admin yang memiliki wewenang untuk mengubah-ubah produk yang ingin dijual
-![Menu admin](https://github.com/aidlmrza/Postest2/assets/144346363/00e2094d-9e30-4641-84cd-d8a2de65abf4)
+![Menu admin](https://github.com/aidlmrza/Postest2/assets/144346363/f33ecdde-d7db-4979-8b0f-c7751995a7af)
 
 ### Create
 Jika memilih opsi 1 yaitu tambah produk, maka admin akan diminta untuk memasukkan nama, jenis, dan harga produk yang baru, setelah itu produk akan ditambahkan ke data poster dan akan menampilkan tabel terbaru dari produk yang dijual
