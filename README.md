@@ -46,7 +46,7 @@ Jika memilih opsi 2 yaitu lihat produk, maka admin akan diperlihatkan produk yan
 
 ### Update
 Jika memilih opsi 3 yaitu Perbarui produk, maka admin akan diminta memasukkan nomor etalase dari produk yang ingin diubah, lalu jika ada etalase yang ingin diubah maka admin diminta untuk memasukkan produk, jenis, dan harga baru, jika tidak ada nomor etalase yang sesuai maka akan kembali ke menu admin lagi.
-![Update](https://github.com/aidlmrza/Postest2/assets/144346363/72bebc1e-ec49-4101-b22b-bc605b289481)
+![Update](https://github.com/aidlmrza/Postest2/assets/144346363/120a69ae-e4c1-42f6-9a10-90d8cb2130ac)
 
 ### Delete
 Jika memilih opsi 4 yaitu hapus produk, maka admin akan diminta memasukkan nomor etalase dari produk yang ingin dihapus, lalu jika tidak ada nomor etalase yang sesuai maka akan kembali ke menu admin
