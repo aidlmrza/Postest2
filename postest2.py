@@ -40,16 +40,17 @@ def register():
     while True:
         nama = input("Masukkan username: ").lower()
         pw = input("Masukkan password: ")
-        username_ada = False
+        username_ada = False #VARIABLE YANG DIGUNAKAN UNTUK MENGECEK APAKAH USERNAME TERDAFTAR ATAU TIDAK
         if nama == nama_admin:
             print("username sudah digunakan cobalagi yang lain")
             return
         for user in data_user:
             if user["username"].lower() == nama :
                 print("username sudah digunakan cobalagi yang lain")
-                username_ada = True
+                username_ada = True #VARIABLE BERUBAH MENJADI TRUE SAAT USERNAME SUDAH TIDAK TERSEDIA
                 break
-        if not username_ada:
+        #JIKA USERNAME TERSEDIA DAN VARIBLENYA MASIH BERNILAI FALSE MAKA AKAN BERHASIL MENAMBAHKAN AKUN BARU
+        if not username_ada: 
             akun_baru = {"username": nama, "password": pw}
             data_user.append(akun_baru)
             print("berhasil membuat akun")
@@ -110,16 +111,16 @@ def menu_admin():
         print("\nanda memasukki mode admin")
         print("1. Tambahkan Produk")
         print("2. Lihat Produk")
-        print("3. Ubah Produk")
+        print("3. Perbarui Produk")
         print("4. Hapus Produk")
         print("0. Keluar")
-        opsi_admin = input("Pilih opsi (1/2/3/4/0): ")
-        if opsi_admin == "1":
+        opsi_admin = input("Pilih opsi (1/2/3/4/0): ") #PILIH OPSI UNTUK MENENTUKAN TINDAKAN SELANJUTNYA
+        if opsi_admin == "1": 
             tambah()
-        elif opsi_admin == "2":
+        elif opsi_admin == "2": 
             lihat_item()
         elif opsi_admin == "3":
-            ubah()
+            perbarui()
         elif opsi_admin == "4":
             hapus()
         elif opsi_admin == "0":
@@ -139,10 +140,10 @@ def tambah():
     lihat_item()
 
 #FUNCTION UNTUK MENGUBAH NAMA, JENIS, HARGA SUATU PRODUK PADA ETALASE
-def ubah():
+def perbarui():
     etalase = int(input("Masukkan nomor etalase barang yang mau diubah: "))
-    for i in range(len(poster)):
-        if poster[i][0] == etalase:
+    for i in range(len(poster)): 
+        if poster[i][0] == etalase: #AKAN MENGEKSEKUSI COMMAND INI JIKA NOMOR ETALASE TERDAPAT PADA DATABASE
             produk = input("Masukkan nama produk baru: ")
             jenis = input("Masukkan jenis produk baru: ")
             harga = input("Masukkan harga produk baru: ")
