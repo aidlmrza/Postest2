@@ -88,7 +88,6 @@ def menu_user():
             break
         else:
             print("invalid")
-            True
 
 #FUNCTION TRANSAKSI UNTUK PELANGGAN
 def Transaksi():
