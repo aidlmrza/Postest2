@@ -7,20 +7,21 @@ Postest 2 - DDP - Muhammad Aidil Mirza
 
 ## Penjelasan output program
 ### Program utama
-![Main](https://github.com/aidlmrza/Postest2/assets/144346363/9fd298df-bf8d-4d20-95c4-2365c629ef2d)
 Menu utama untuk user yang akan menghasilkan output sesuai dengan opsi pilihan yaitu ada 1 untuk register, 2 untuk login, 3 untuk keluar, jika selain itu maka akan invalid dan tetap di menu utama
+![Main](https://github.com/aidlmrza/Postest2/assets/144346363/9fd298df-bf8d-4d20-95c4-2365c629ef2d)
 
 ### List Produk yang akan ditampilkan
+Saya menggunakan list bersarang pada variable poster untuk menyimpan data-data produk, lalu varibale poster dikonversi dan ditampilkan dengan prettytabble
 ![Data poster](https://github.com/aidlmrza/Postest2/assets/144346363/999eaf85-4942-4081-ba5c-b3ef2dff7e21)
-####Saya menggunakan list bersarang pada variable poster untuk menyimpan data-data produk, lalu varibale poster dikonversi dan ditampilkan dengan prettytabble
+
 
 ### Register dan Login
+Berikut adalah username admin yang sudah ditentukan dan beberapa data user yang telah terdaftar
 ![Database](https://github.com/aidlmrza/Postest2/assets/144346363/da25f090-4d8e-49df-a190-7d3b942cdbe4)
-####Berikut adalah username admin yang sudah ditentukan dan beberapa data user yang telah terdaftar
+Dalam fungsi register user akan diminta untuk memasukkan username dan password untuk membuat akun baru, username akan dicek apakah sudah terdapat pada database atau belum, jika sudah maka akan mengeksekusi baris 13, jika belum maka akan meksekusi baris 19 dan 20 yaitu menambahkan username dan password ke database
 ![Register](https://github.com/aidlmrza/Postest2/assets/144346363/606a86f3-ff5c-4c07-a9f4-ac4afcd3a737)
-####Dalam fungsi register user akan diminta untuk memasukkan username dan password untuk membuat akun baru, username akan dicek apakah sudah terdapat pada database atau belum, jika sudah maka akan mengeksekusi baris 13, jika belum maka akan meksekusi baris 19 dan 20 yaitu menambahkan username dan password ke database
+Dalam fungsi login user akan diminta untuk memasukkan username dan password, jika username salah maka akan mengeksekusi baris 19, jika username dan password merupakan akun admin maka akan masuk ke menu admin, jika username dan password ada pada database user maka akan ke menu user
 ![Login](https://github.com/aidlmrza/Postest2/assets/144346363/59f84507-6436-4a63-a995-ad488b38e962)
-####Dalam fungsi login user akan diminta untuk memasukkan username dan password, jika username salah maka akan mengeksekusi baris 19, jika username dan password merupakan akun admin maka akan masuk ke menu admin, jika username dan password ada pada database user maka akan ke menu user
 
 ### Menu User
 ![Menu user](https://github.com/aidlmrza/Postest2/assets/144346363/46f6d846-d0c0-4ec8-a427-cf04ff086f23)
