@@ -62,7 +62,8 @@ Jika memilih opsi 0 maka akan kembali ke menu utama, jika memilih selain dari 5 
 <img width="195" alt="image" src="https://github.com/aidlmrza/Postest2/assets/144346363/17ecd39b-575d-41d0-adcc-a775b9f72a81">
 
 ### Menu user
-<img width="381" alt="image" src="https://github.com/aidlmrza/Postest2/assets/144346363/b7b5da46-8f7e-41e1-b377-ac6f69ffe642">
+<img width="396" alt="image" src="https://github.com/aidlmrza/Postest2/assets/144346363/cdf988fa-9b08-4051-824b-9979443619c0">
+
 
 ### Admin CRUD
 <img width="296" alt="image" src="https://github.com/aidlmrza/Postest2/assets/144346363/5ae9c10b-8574-4ae1-840e-800309832cee">
