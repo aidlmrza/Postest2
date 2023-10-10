@@ -5,7 +5,7 @@ Postest 2 - DDP - Muhammad Aidil Mirza
 ![Postest2-flowchart-gambar](https://github.com/aidlmrza/Postest2/assets/144346363/12f03aba-5bbd-477b-9466-596ef67defe7)
 
 
-## Penjelasan output program
+## Penjelasan program
 ### Program utama
 Menu utama untuk user yang akan menghasilkan output sesuai dengan opsi pilihan yaitu ada 1 untuk register, 2 untuk login, 3 untuk keluar, jika selain itu maka akan invalid dan tetap di menu utama
 ![Main](https://github.com/aidlmrza/Postest2/assets/144346363/9fd298df-bf8d-4d20-95c4-2365c629ef2d)
@@ -56,6 +56,21 @@ Jika memilih opsi 4 yaitu hapus produk, maka admin akan diminta memasukkan nomor
 ### Keluar
 Jika memilih opsi 0 maka akan kembali ke menu utama, jika memilih selain dari 5 opsi tersebut maka akan invalid dan kembali ke menu admin
 ![image](https://github.com/aidlmrza/Postest2/assets/144346363/ff41cafa-36f2-4af0-aef5-13149da186ce)
+
+## Hasil Output Program
+### Register dan Login
+<img width="195" alt="image" src="https://github.com/aidlmrza/Postest2/assets/144346363/17ecd39b-575d-41d0-adcc-a775b9f72a81">
+
+### Menu user
+<img width="381" alt="image" src="https://github.com/aidlmrza/Postest2/assets/144346363/b7b5da46-8f7e-41e1-b377-ac6f69ffe642">
+
+### Admin CRUD
+<img width="296" alt="image" src="https://github.com/aidlmrza/Postest2/assets/144346363/5ae9c10b-8574-4ae1-840e-800309832cee">
+<img width="275" alt="image" src="https://github.com/aidlmrza/Postest2/assets/144346363/528e0fc0-036f-4e93-86cb-8252bc3d2e7c">
+<img width="284" alt="image" src="https://github.com/aidlmrza/Postest2/assets/144346363/5f2163a1-1ccb-4b81-aad9-4ee93a93caba">
+<img width="284" alt="image" src="https://github.com/aidlmrza/Postest2/assets/144346363/24d3d041-c436-4226-8f66-5fdda8fadcf7">
+
+
 
 
 
